@@ -11,5 +11,15 @@
 @interface ViewController : UIViewController
 
 
+@property (weak, nonatomic) IBOutlet UILabel *choice;
+
+@property (weak, nonatomic) IBOutlet UITextField *textChoice;
+
+- (IBAction)sub:(id)sender;
+
+
+
+
+
 @end
 

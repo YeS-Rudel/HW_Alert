@@ -13,6 +13,9 @@
 		990D6162206004E0007A6A70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 990D6161206004E0007A6A70 /* Assets.xcassets */; };
 		990D6165206004E0007A6A70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990D6163206004E0007A6A70 /* LaunchScreen.storyboard */; };
 		990D6168206004E0007A6A70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 990D6167206004E0007A6A70 /* main.m */; };
+		99DFBA6E2060359A001C4CCC /* Breakfast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99DFBA6D2060359A001C4CCC /* Breakfast.jpg */; };
+		99DFBA70206036B1001C4CCC /* Morning.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 99DFBA6F206036B1001C4CCC /* Morning.jpeg */; };
+		99DFBA7220603A92001C4CCC /* Morning1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99DFBA7120603A92001C4CCC /* Morning1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		990D6164206004E0007A6A70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		990D6166206004E0007A6A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		990D6167206004E0007A6A70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99DFBA6D2060359A001C4CCC /* Breakfast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Breakfast.jpg; path = ../../../../../../Downloads/Breakfast.jpg; sourceTree = "<group>"; };
+		99DFBA6F206036B1001C4CCC /* Morning.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Morning.jpeg; path = ../../../../../../Downloads/Morning.jpeg; sourceTree = "<group>"; };
+		99DFBA7120603A92001C4CCC /* Morning1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Morning1.jpg; path = ../../../../../../Downloads/Morning1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,9 @@
 				990D615C206004E0007A6A70 /* ViewController.m */,
 				990D615E206004E0007A6A70 /* Main.storyboard */,
 				990D6161206004E0007A6A70 /* Assets.xcassets */,
+				99DFBA7120603A92001C4CCC /* Morning1.jpg */,
+				99DFBA6F206036B1001C4CCC /* Morning.jpeg */,
+				99DFBA6D2060359A001C4CCC /* Breakfast.jpg */,
 				990D6163206004E0007A6A70 /* LaunchScreen.storyboard */,
 				990D6166206004E0007A6A70 /* Info.plist */,
 				990D6167206004E0007A6A70 /* main.m */,
@@ -131,7 +140,10 @@
 			files = (
 				990D6165206004E0007A6A70 /* LaunchScreen.storyboard in Resources */,
 				990D6162206004E0007A6A70 /* Assets.xcassets in Resources */,
+				99DFBA7220603A92001C4CCC /* Morning1.jpg in Resources */,
 				990D6160206004E0007A6A70 /* Main.storyboard in Resources */,
+				99DFBA70206036B1001C4CCC /* Morning.jpeg in Resources */,
+				99DFBA6E2060359A001C4CCC /* Breakfast.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

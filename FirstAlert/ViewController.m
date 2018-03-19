@@ -14,16 +14,32 @@
 
 @implementation ViewController
 
+@synthesize choice, textChoice;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-
+- (IBAction)sub:(id)sender {
+    
+    NSString *title = @"Вы уверены, что вы действительно хотите?";
+    NSString *massage = textChoice.text;
+    //NSString *input=[textChoice.text stringByAppendingString:@" ?"];
+    NSString *okText=@"Да, это мой выбор!";
+    // choice.text=input;
+    UIAlertController *alert= [UIAlertController alertControllerWithTitle:title message:massage preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction *okButton = [UIAlertAction actionWithTitle:okText style:UIAlertActionStyleCancel handler:nil];
+    
+    [alert addAction:okButton];
+    
+    [self presentViewController:alert animated:YES completion:nil];
+    
+}
 @end
