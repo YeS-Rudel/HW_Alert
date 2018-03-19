@@ -28,11 +28,11 @@
 
 - (IBAction)sub:(id)sender {
     
-    NSString *title = @"Вы уверены, что действительно хотите?";
-    NSString *massage = textChoice.text;
-    //NSString *input=[textChoice.text stringByAppendingString:@" ?"];
-    NSString *okText=@"Да, это мой выбор!";
-    // choice.text=input;
+    NSString *title = @"Желаете только";
+    NSString *massage = [textChoice.text stringByAppendingString:@" ?"];
+    NSString *input=[textChoice.text stringByAppendingString:@" ..."];
+    NSString *okText=@"Да, спасибо!";
+    choice.text=input;
     UIAlertController *alert= [UIAlertController alertControllerWithTitle:title message:massage preferredStyle:UIAlertControllerStyleAlert];
     
     UIAlertAction *okButton = [UIAlertAction actionWithTitle:okText style:UIAlertActionStyleCancel handler:nil];
