@@ -28,7 +28,7 @@
 
 - (IBAction)sub:(id)sender {
     
-    NSString *title = @"Вы уверены, что вы действительно хотите?";
+    NSString *title = @"Вы уверены, что действительно хотите?";
     NSString *massage = textChoice.text;
     //NSString *input=[textChoice.text stringByAppendingString:@" ?"];
     NSString *okText=@"Да, это мой выбор!";
